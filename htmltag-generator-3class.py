@@ -60,6 +60,7 @@ class Tag(TopLevelTag):
         self.is_single = is_single
         self.children = []
 
+# Конструкция ниже запускает генерацию html-кода
 # Если не указать параметр output для объекта класса HTML, то сгенерированный html-код будет выведен на экран, а не в файл
 with HTML("html") as html:
     with TopLevelTag("head") as head:
