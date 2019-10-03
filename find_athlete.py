@@ -100,7 +100,7 @@ def main():
             findheight(targetuser, session)
             main()
         else:
-            print("no")
+            print("Нет пользователя с таким id")
             main()
     elif mode == "2":
         print("Завершение работы программы")
